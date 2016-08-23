@@ -1,0 +1,85 @@
+SquadLeader
+TeamLeader
+
+Officer
+Rifleman
+Heavy Gunner
+UAV Operator
+Marksman
+Sharpshooter
+
+Ammo Bearer
+Engineer
+Combat Life Saver
+Unguided AT Specialist
+
+Autorifleman
+Assistant Autorifleman
+
+AT Missile Specialist
+Assistant
+
+AA Missile Specialist
+Assistant
+
+Helicopter Pilot
+Fighter Pilot
+
+comment "Exported from Arsenal by VeZer0";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this addHeadgear "H_PilotHelmetHeli_I";
+
+comment "Add weapons";
+this addWeapon "ACE_Vector";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc148jem_2";
+this linkItem "I_UavTerminal";
+
+comment "Set identity";
+this setFace "AsianHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+comment "Exported from Arsenal by VeZer0";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this addHeadgear "H_PilotHelmetFighter_I";
+
+comment "Add weapons";
+this addWeapon "ACE_Vector";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc148jem_2";
+this linkItem "I_UavTerminal";
+
+comment "Set identity";
+this setFace "AsianHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
